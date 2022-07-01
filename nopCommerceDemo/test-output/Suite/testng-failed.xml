@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestwithChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopCommerceDemo.testCases.TC_SearchCustomer">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchCustomer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopCommerceDemo.testCases.TC_SearchCustomer -->
+      <class name="com.nopCommerceDemo.testCases.TC_AddCustomer_003">
+        <methods>
+          <include name="addCustomerTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopCommerceDemo.testCases.TC_AddCustomer_003 -->
+    </classes>
+  </test> <!-- TestwithChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
